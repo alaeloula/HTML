@@ -1,0 +1,53 @@
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    display: flex ;
+    justify-content: space-between;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar .logo {
+      text-align: center;
+    padding: 12px;
+    color: white;
+  }
+  .part1{
+      display: flex ;
+    justify-content: space-between;
+  }
+  .part1 .description{
+      color: white;
+  }
+  .part1 .description img {
+  border-radius: 50%;
+  }
+  .part2{
+      display: flex ;
+    justify-content: space-around;
+  }
+  .formation .yc{
+      display: flex;
+  }
+  .formation .lp{
+      display: flex;
+  }
+  .formation .dut{
+      display: flex;
+  }
+  .formation .fps{
+      display: flex;
+  }
+  
+  .part3{
+      display: flex ;
+    justify-content: space-around;
+  }
